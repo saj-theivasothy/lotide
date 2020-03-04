@@ -5,7 +5,7 @@ const eqArrays = function(firstArray, secondArray) {
     }
   }
   return true;
-}
+};
 
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
