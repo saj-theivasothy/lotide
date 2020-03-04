@@ -3,9 +3,9 @@ const head = function(array) {
   if (array.length === 0) {
     return undefined;
   } else {
-  return first;
+    return first;
   }
-}
+};
 
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
