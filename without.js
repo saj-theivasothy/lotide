@@ -7,7 +7,6 @@ const without = function(sourceArray, itemsToRemoveArray) {
       } 
     }
   }
-  console.log("outside newArray is ", newArray);
   return newArray;
 }
 
