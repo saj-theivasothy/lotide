@@ -1,8 +1,6 @@
 const tail = function(array) {
   let tail = array.slice(1);
- 
   return tail;
-  
 };
 
 // Assert Function comparing two given values
