@@ -8,4 +8,4 @@ assertEqual(test1[0], "Lighthouse");
 assertEqual(test1[1], "Labs");
 const emptyArray = [];
 assertEqual(tail(emptyArray).length, 0);
-const secondArray = [1];
+
