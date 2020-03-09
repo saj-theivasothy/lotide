@@ -35,3 +35,6 @@ assertArraysEqual(map(numbers, number => (number/2)), [1, 2, 4, 5, 12, 23, 34, 3
 const objects = [{firstName: "Dave", secondName: "Smith"}, {firstName: "Mark", secondName: "Zuckerberg"}, {firstName: "Jeff", secondName: "Bezos"}, 
                   {firstName: "Steve", secondName: "Jobs"}];
 assertArraysEqual(map(objects, object => `${object.firstName} ${object.secondName}`), ["Dave Smith", "Mark Zuckerberg", "Jeff Bezos", "Steve Jobs"]);
+
+
+module.exports = map;
